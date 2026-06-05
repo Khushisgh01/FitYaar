@@ -3,6 +3,7 @@
 import Home from './pages/Home.jsx'
 import Auth from './pages/Auth.jsx' // 💡 NEW: Import Auth component
 import Journel from './pages/Journel.jsx'
+import LandingPage from './pages/LandingPage.jsx'
 import Exercises from './pages/Exercises.jsx'
 import NewEntryPage from './components/ui/newentryPage.jsx'
 import TimelinePage from './components/ui/timeLinePage.jsx'
@@ -34,6 +35,7 @@ const router = createBrowserRouter([
   // Public Auth Routes
   { path: '/login', element: <Auth key="login"/> },
   { path: '/signup', element: <Auth key="signup"/> },
+  {path: '/landing', element: <LandingPage />},
   
   // WRAP PROTECTED ROUTES
   {
