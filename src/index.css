@@ -1,5 +1,5 @@
 /* ─── All Google Fonts loaded ONCE here, before anything else ─── */
-@import url('https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Satoshi:wght@300;400;500;700&family=Sora:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Syne:wght@400;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Satoshi:wght@300;400;500;700&family=Sora:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Syne:wght@400;700;800&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -10,9 +10,9 @@
   --blue: #60a5fa;
   font-family: 'Satoshi', system-ui, sans-serif;
   line-height: 1;
-}
+} */
 
-body {
+/* body {
   margin: 0;
   padding: 0;
   background: #faf7ff;
@@ -22,8 +22,148 @@ body {
   box-sizing: border-box;
 }
 
-/* Smooth scrollbars */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: rgba(124,58,237,0.2); border-radius: 100px; }
-::-webkit-scrollbar-thumb:hover { background: rgba(124,58,237,0.4); }
+::-webkit-scrollbar-thumb:hover { background: rgba(124,58,237,0.4); } */
+/* ─── Google Fonts ─────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Satoshi:wght@300;400;500;700&family=Sora:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Syne:wght@400;700;800&display=swap');
+@import "tailwindcss";
+
+/* ─── Default CSS Variables (dark — overridden by ThemeContext) ── */
+:root {
+  --bg-primary:        #0a0614;
+  --bg-secondary:      #130920;
+  --bg-tertiary:       #1a0a3d;
+  --bg-card:           rgba(255,255,255,0.04);
+  --bg-card-hover:     rgba(255,255,255,0.07);
+  --bg-input:          rgba(255,255,255,0.06);
+  --bg-overlay:        rgba(10,6,20,0.85);
+
+  --surface:           #0e0e1f;
+  --surface2:          #14142a;
+
+  --text-primary:      #f0eeff;
+  --text-secondary:    #cbd5e1;
+  --text-muted:        rgba(148,163,184,0.6);
+  --text-xmuted:       rgba(148,163,184,0.35);
+
+  --border-primary:    rgba(167,139,250,0.15);
+  --border-secondary:  rgba(255,255,255,0.07);
+  --border-card:       rgba(255,255,255,0.08);
+
+  --accent-violet:     #7c3aed;
+  --accent-violet-lt:  #a78bfa;
+  --accent-pink:       #f472b6;
+  --accent-mint:       #34d399;
+  --accent-blue:       #60a5fa;
+  --accent-orange:     #f97316;
+
+  --shadow-card:       0 4px 40px rgba(124,58,237,0.12);
+  --shadow-glow:       0 0 40px rgba(124,58,237,0.25);
+
+  --sidebar-bg:        linear-gradient(170deg,#0d0812 0%,#130920 45%,#0a0d20 100%);
+  --sidebar-text:      rgba(203,213,225,0.7);
+  --sidebar-active-bg: linear-gradient(135deg,rgba(124,58,237,0.35),rgba(192,38,211,0.2));
+  --sidebar-active-text: #e9d5ff;
+  --sidebar-section-label: rgba(148,163,184,0.3);
+  --sidebar-border:    rgba(139,108,244,0.1);
+  --sidebar-bottom-btn-color: rgba(148,163,184,0.5);
+
+  --page-bg:           #0a0614;
+  --card-bg:           rgba(255,255,255,0.04);
+  --card-border:       rgba(255,255,255,0.08);
+  --card-radius:       22px;
+
+  --input-bg:          rgba(255,255,255,0.06);
+  --input-border:      rgba(167,139,250,0.2);
+  --input-text:        #f0eeff;
+  --input-placeholder: rgba(148,163,184,0.4);
+
+  --nav-bg:            rgba(255,255,255,0.04);
+  --nav-border:        rgba(255,255,255,0.08);
+  --nav-link-color:    rgba(255,255,255,0.45);
+  --nav-link-hover:    rgba(255,255,255,0.75);
+
+  --orb-1-color:       rgba(124,58,237,0.18);
+  --orb-2-color:       rgba(244,114,182,0.13);
+  --orb-3-color:       rgba(96,165,250,0.12);
+  --grid-line:         rgba(124,58,237,0.05);
+
+  --stat-card-bg:      rgba(255,255,255,0.04);
+  --stat-card-border:  rgba(255,255,255,0.07);
+  --toggle-track-off:  rgba(255,255,255,0.06);
+
+  --hero-title-color:  #f0eeff;
+  --hero-sub-color:    rgba(203,213,225,0.6);
+
+  /* Fixed accent kept across themes */
+  --violet:    #7c3aed;
+  --violet-lt: #a78bfa;
+  --mint:      #34d399;
+  --pink:      #f472b6;
+  --blue:      #60a5fa;
+
+  font-family: 'Satoshi', system-ui, sans-serif;
+  line-height: 1;
+}
+
+/* ─── Base ─────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+/* ─── Scrollbars ───────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(124,58,237,0.25); border-radius: 100px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(124,58,237,0.45); }
+
+/* ─── Shared page background pattern ──────────────────────────── */
+.theme-page-bg {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+/* ─── Shared background grid ───────────────────────────────────── */
+.theme-bg-grid {
+  position: fixed;
+  inset: 0; z-index: 0; pointer-events: none;
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 60px 60px;
+  transition: opacity 0.35s;
+}
+
+/* ─── Shared card style ────────────────────────────────────────── */
+.theme-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow-card);
+  transition: background 0.35s, border-color 0.35s;
+}
+
+/* ─── Smooth theme transition for all elements ─────────────────── */
+*, *::before, *::after {
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+/* Exclude transitions on animations to avoid conflicts */
+[data-no-transition], .gsap-animated {
+  transition: none !important;
+}
