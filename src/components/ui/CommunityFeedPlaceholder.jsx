@@ -230,7 +230,7 @@ const CommunityFeedPlaceholder = () => {
                             text={post.text}
                             hashtags={post.tags}
                             likes={post.likes}
-                            comments={post.comments}
+                            comments={post.commentCount ?? (Array.isArray(post.comments) ? post.comments.length : post.comments)}
                             postTagColor={getTagColor(post.tags[0] || 'General')}
                         />
                     ))}

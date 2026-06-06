@@ -11,7 +11,7 @@ import { Outlet } from 'react-router-dom';
 const CommunitySupport = () => {
     return (
         <div className='flex min-h-screen bg-gray-50'>
-            <Sidebar initialActiveItem="Community Support" /> 
+            <Sidebar /> 
             <div className='flex-1 p-8 overflow-y-auto'>
                 
                 {/* Header */}

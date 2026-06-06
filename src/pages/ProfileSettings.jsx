@@ -7,7 +7,7 @@ import SettingsNavbar from '../components/ui/SettingsNavbar'; // NEW IMPORT
 const ProfileSettings = () => {
     return (
         <div className='flex min-h-screen bg-gray-50'>
-            <Sidebar initialActiveItem="Profile & Settings" />
+            <Sidebar  />
             <div className='flex-1 p-8 overflow-y-auto'>
                 
                 {/* Header Section */}

@@ -4,11 +4,11 @@ import mongoose from 'mongoose';
 
 const ExerciseSchema = new mongoose.Schema({
     // 💡 NEW: Link to the User model
-    user: {
-        type: mongoose.Schema.Types.ObjectId,
-        required: true,
-        ref: 'User'
-    },
+    // user: {
+    //     type: mongoose.Schema.Types.ObjectId,
+    //     required: true,
+    //     ref: 'User'
+    // },
     imageSrc: { type: String },
     title: { type: String, required: true },
     duration: { type: Number },

@@ -9,7 +9,7 @@ import FindTherapistContent from '../components/ui/FindTherapistContent'; // Def
 const FindTherapist = () => {
     return (
         <div className='flex min-h-screen bg-gray-50'>
-            <Sidebar initialActiveItem="Find Therapist" />
+            <Sidebar />
             <div className='flex-1 p-8 overflow-y-auto'>
                 
                 {/* Header Section */}

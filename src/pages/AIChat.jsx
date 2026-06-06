@@ -6,7 +6,7 @@ const AIChat = () => {
     return (
         <div className='flex min-h-screen bg-gray-50'>
             {/* Set AI Chat as the initially active item for the sidebar */}
-            <Sidebar initialActiveItem="AI Chat" />
+            <Sidebar />
             
             <div className='flex-1 p-8 overflow-y-auto'>
                 <div className='max-w-4xl mx-auto'>
