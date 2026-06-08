@@ -1,0 +1,9 @@
+[
+  {"id": 1, "name": "Deep Breathing", "description": "Breathe in and out slowly while sitting.", "video": "/videos/1.mp4", "category": "Breathing"},
+  {"id": 2, "name": "Side Bends", "description": "Stand tall and reach overhead to stretch your sides.", "video": "/videos/2.mp4", "category": "Movement"},
+  {"id": 3, "name": "High Knee Twists", "description": "Bring knees up while twisting your torso.", "video": "/videos/3.mp4", "category": "Movement"},
+  {"id": 4, "name": "Side Leg Raise", "description": "Lift your leg to the side to strengthen hips.", "video": "/videos/4.mp4", "category": "Movement"},
+  {"id": 5, "name": "Jumping Jacks", "description": "Cardio movement to increase heart rate.", "video": "/videos/5.mp4", "category": "Movement"},
+  {"id": 6, "name": "Mountain Climber", "description": "Core and cardio exercise in plank position.", "video": "/videos/6.mp4", "category": "Movement"},
+  {"id": 7, "name": "Restorative Breathing", "description": "Deep focused breathing for relaxation.", "video": "/videos/7.mp4", "category": "Breathing"}
+]
