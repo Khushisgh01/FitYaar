@@ -108,7 +108,7 @@ const AIChatWindow = () => {
                             <span className='text-violet-600 p-2 rounded-full bg-violet-100'><SparklesIcon className='w-5 h-5'/></span>
                         </div>
                         <div className="p-3 shadow-md bg-violet-100 text-gray-500 rounded-r-xl rounded-bl-xl">
-                            <p className='text-sm italic'>MindfulBot is typing...</p>
+                            <p className='text-sm italic'>FitYaarBot is typing...</p>
                         </div>
                     </div>
                 )}

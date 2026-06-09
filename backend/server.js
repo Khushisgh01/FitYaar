@@ -23,9 +23,9 @@ app.use('/api/auth', authRoutes); // 💡 NEW: Mount Auth routes
 
 // Simple default route for health check
 app.get('/', (req, res) => {
-    res.send('MindfulSpace Backend API is running!');
+    res.send('FitYaar Backend API is running!');
 });
 
 app.listen(PORT, () => {
-    console.log(`MindfulSpace Backend server running on http://localhost:${PORT}`);
+    console.log(`FitYaar Backend server running on http://localhost:${PORT}`);
 });

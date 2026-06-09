@@ -36,7 +36,7 @@ const AuthForm = ({ type }) => {
     return (
         <div className="max-w-md mx-auto mt-20 p-8 bg-white rounded-xl shadow-2xl">
             <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
-                {isLogin ? 'Welcome Back!' : 'Join MindfulSpace'}
+                {isLogin ? 'Welcome Back!' : 'Join FitYaar'}
             </h2>
             
             {error && <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4 text-sm" role="alert">{error}</div>}

@@ -6,12 +6,12 @@ export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
   const [isDark, setIsDark] = useState(() => {
-    const saved = localStorage.getItem('mindfulspace-theme');
+    const saved = localStorage.getItem('FitYaar-theme');
     return saved ? saved === 'dark' : true; // dark by default
   });
 
   useEffect(() => {
-    localStorage.setItem('mindfulspace-theme', isDark ? 'dark' : 'light');
+    localStorage.setItem('FitYaar-theme', isDark ? 'dark' : 'light');
     const root = document.documentElement;
 
     if (isDark) {

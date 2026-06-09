@@ -30,7 +30,7 @@ const ChatMessage = ({ type, text, time, emoji }) => {
                 {/* Name/Status (Only for bot) */}
                 {isBot && (
                     <div className='flex items-center mb-1'>
-                        <p className='font-semibold text-sm text-gray-700 mr-2'>MindfulBot</p>
+                        <p className='font-semibold text-sm text-gray-700 mr-2'>FitYaarBot</p>
                         <span className='text-xs text-green-600 font-medium'>Online</span>
                     </div>
                 )}

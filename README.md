@@ -1,12 +1,12 @@
-## 💜 MindfulSpace: Your Personal Mental Wellness Companion
+## 💜 FitYaar: Your Personal Mental Wellness Companion
 
-MindfulSpace is a comprehensive, full-stack application built to support emotional well-being through AI, structured journaling, and resource management.
+FitYaar is a comprehensive, full-stack application built to support emotional well-being through AI, structured journaling, and resource management.
 
 -----
 
 ### ✨ Core Features
 
-  * **AI Support Chat (MindfulBot):** Empathetic, Gemini-powered assistant offering immediate support and mindfulness techniques.
+  * **AI Support Chat (FitYaar):** Empathetic, Gemini-powered assistant offering immediate support and mindfulness techniques.
   * **Mood Journal:** Track emotional journeys with tagging and full CRUD operations.
   * **Wellness Exercises:** Guided library including **Breathing** (`4-7-8`, `Box Breathing`) and **Mindfulness** exercises.
   * **Ambient Soundscapes:** Audio controls, timer, and presets for focus or sleep (e.g., `Gentle Rain`).
